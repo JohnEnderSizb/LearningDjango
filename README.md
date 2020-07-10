@@ -37,3 +37,11 @@ Code for the Youtube Django tutorial: https://youtu.be/JT80XhYJdBw (Python Djang
 * Make sure you are in the same level as manage.py
 * Your apps can live anywhere on your Python path. In this tutorial, we’ll create our poll app in the same directory as your manage.py file so that it can be imported as its own top-level module, rather than a submodule of mysite.
 * ``` manage.py startapp polls```
+
+# MIGRATE DATABASE
+* ```python manage.py migrate```
+* Models have to be activated in settings
+
+## RUNNING MIGRATIONS
+
+* ```python manage.py makemigrations polls``` 
