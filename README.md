@@ -27,3 +27,13 @@ Code for the Youtube Django tutorial: https://youtu.be/JT80XhYJdBw (Python Djang
 # START PROJECT
 
 * ```django-admin startproject mysite```
+
+# RUN SERVER
+
+* ``` python manage.py runserver  # inside your project directory ```
+
+# CREATE AN APP
+
+* Make sure you are in the same level as manage.py
+* Your apps can live anywhere on your Python path. In this tutorial, we’ll create our poll app in the same directory as your manage.py file so that it can be imported as its own top-level module, rather than a submodule of mysite.
+* ``` manage.py startapp polls```
