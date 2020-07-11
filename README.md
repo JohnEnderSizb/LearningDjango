@@ -55,3 +55,7 @@ Code for the Youtube Django tutorial: https://youtu.be/JT80XhYJdBw (Python Djang
 * Once you’re in the shell, explore the database API:
 * ```from polls.models import Choice, Question  # Import the model classes we just wrote```
 * diff between get and filter
+
+# Django Admin
+
+* ```python manage.py createsuperuser```
