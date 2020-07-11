@@ -45,3 +45,13 @@ Code for the Youtube Django tutorial: https://youtu.be/JT80XhYJdBw (Python Djang
 ## RUNNING MIGRATIONS
 
 * ```python manage.py makemigrations polls``` 
+* To see the SQL: ```python manage.py sqlmigrate polls 0001```
+* After making migrations, comit them by:  ```python manage.py migrate```
+
+# PLAYING WITH THE API
+
+* Acticate the shell: ```python manage.py shell```
+* We’re using this instead of simply typing “python”, because manage.py sets the DJANGO_SETTINGS_MODULE environment variable, which gives Django the Python import path to your mysite/settings.py file.
+* Once you’re in the shell, explore the database API:
+* ```from polls.models import Choice, Question  # Import the model classes we just wrote```
+* diff between get and filter
